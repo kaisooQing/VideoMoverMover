@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" width="240" height="40">
+  <defs>
+    <!-- 氢气渐变 -->
+    <linearGradient id="hydrogenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="18%" stop-color="#0284c7"/>
+      <stop offset="38%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#67e8f9"/>
+      <stop offset="72%" stop-color="#22d3ee"/>
+      <stop offset="88%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <!-- 装饰线渐变 -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+    <!-- 光晕滤镜 -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 左侧装饰线 -->
+  <line x1="0" y1="20" x2="36" y2="20" stroke="url(#lineGrad)" stroke-width="1" filter="url(#glow)"/>
+
+  <!-- by 小字 -->
+  <text x="44" y="24" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+        font-size="11" fill="#94a3b8" letter-spacing="1">by</text>
+
+  <!-- 王小氢 渐变名 -->
+  <text x="72" y="27" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+        font-size="16" font-weight="700" fill="url(#hydrogenGrad)" letter-spacing="2.4"
+        filter="url(#glow)">王小氢</text>
+</svg>

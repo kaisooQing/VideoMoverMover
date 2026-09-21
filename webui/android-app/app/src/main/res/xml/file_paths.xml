@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- App internal storage: /data/data/com.ytdlp.webui/files/ -->
+    <files-path name="internal" path="." />
+    <!-- App external storage: /storage/emulated/0/Android/data/com.ytdlp.webui/files/ -->
+    <external-files-path name="app_external" path="." />
+    <!-- Public external storage root: /storage/emulated/0/ (covers Download, DCIM, etc.) -->
+    <external-path name="public_external" path="." />
+</paths>

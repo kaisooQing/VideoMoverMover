@@ -1,0 +1,18 @@
+2026-07-01 22:30:46,968 INFO Resolved to: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:30:47,479 INFO Navigating to: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:30:55,965 INFO Final page URL: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:30:55,970 INFO Page title: 秦始皇：你说徭役徭是吧？_哔哩哔哩_bilibili
+2026-07-01 22:30:55,977 INFO playinfo from JS: found
+2026-07-01 22:31:02,465 INFO Extract result keys: ['playinfo', 'metadata', 'cookie_str']
+2026-07-01 22:31:02,466 INFO playinfo type: <class 'dict'>, truthy: True
+2026-07-01 22:31:02,466 INFO metadata: {'title': '秦始皇：你说徭役徭是吧？', 'desc': '灵感来自评论区\n演唱：清风最梦 作词：清风最梦 混音：清风最梦 视频：清风最梦 \n发现挺多人经常来看我视频就是从来不点关注。粉丝量增长不上去收益就更少，如果一直这样下去的话可能有一天不得不停下创作的脚步。如果您确实喜欢看我的视频，或者经常刷我的视频，希望能获得你一个免费的关注支持一下', 'owner': '清风最梦', 'pic': 'http://i1.hdslb.com/bfs/archive/96932ddc2788a5657b0b9ed1f62f4960eb835b2a.jpg', 'duration': 70, 'aid': 116793918165295, 'bvid': 'BV1JK7N6xEtw'}
+2026-07-01 22:31:02,466 INFO cookie_str length: 808
+2026-07-01 22:33:34,443 INFO Resolved to: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:33:34,982 INFO Navigating to: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:33:43,796 INFO Final page URL: https://www.bilibili.com/video/BV1JK7N6xEtw/
+2026-07-01 22:33:43,802 INFO Page title: 秦始皇：你说徭役徭是吧？_哔哩哔哩_bilibili
+2026-07-01 22:33:43,811 INFO playinfo from JS: found
+2026-07-01 22:33:50,262 INFO Extract result keys: ['playinfo', 'metadata', 'cookie_str']
+2026-07-01 22:33:50,262 INFO playinfo type: <class 'dict'>, truthy: True
+2026-07-01 22:33:50,262 INFO metadata: {'title': '秦始皇：你说徭役徭是吧？', 'desc': '灵感来自评论区\n演唱：清风最梦 作词：清风最梦 混音：清风最梦 视频：清风最梦 \n发现挺多人经常来看我视频就是从来不点关注。粉丝量增长不上去收益就更少，如果一直这样下去的话可能有一天不得不停下创作的脚步。如果您确实喜欢看我的视频，或者经常刷我的视频，希望能获得你一个免费的关注支持一下', 'owner': '清风最梦', 'pic': 'http://i1.hdslb.com/bfs/archive/96932ddc2788a5657b0b9ed1f62f4960eb835b2a.jpg', 'duration': 70, 'aid': 116793918165295, 'bvid': 'BV1JK7N6xEtw'}
+2026-07-01 22:33:50,263 INFO cookie_str length: 808

@@ -1,0 +1,86 @@
+plugins {
+    id "com.android.application" version "8.2.2"
+    id "com.chaquo.python" version "16.0.0"
+}
+
+android {
+    namespace "com.ytdlp.webui"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.ytdlp.webui"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+        
+        ndk {
+            abiFilters "arm64-v8a"
+        }
+        
+        python {
+            version "3.10"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        pip {
+            // Core web framework (pinned for pydantic v1 compatibility)
+            install "fastapi==0.99.1"
+            install "starlette==0.27.0"
+            install "pydantic==1.10.13"
+
+            // ASGI server
+            install "uvicorn==0.22.0"
+            install "h11==0.14.0"
+            install "click==8.1.7"
+
+            // Async networking (required by starlette/fastapi)
+            install "anyio==3.7.1"
+            install "sniffio==1.3.0"
+            install "websockets==11.0.3"
+
+            // HTTP client
+            install "httpx==0.24.1"
+            install "httpcore==0.17.3"
+            install "certifi"
+            install "idna==3.4"
+
+            // Form/file handling
+            install "python-multipart==0.0.6"
+            install "email-validator==2.0.0"
+
+            // File I/O
+            install "aiofiles==23.1.0"
+
+            // Video downloading
+            install "yt-dlp"
+            install "mutagen==1.47.0"
+            install "brotli"
+            install "m3u8==3.6.0"
+            install "gmssl"
+        }
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "androidx.core:core:1.12.0"
+    implementation "com.google.android.material:material:1.11.0"
+}

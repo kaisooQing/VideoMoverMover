@@ -1,0 +1,217 @@
+# Config
+*.conf
+cookies
+*cookies.txt
+.netrc
+
+# Downloaded
+*.annotations.xml
+*.aria2
+*.description
+*.dump
+*.frag
+*.frag.aria2
+*.frag.urls
+*.info.json
+*.live_chat.json
+*.meta
+*.part*
+*.tmp
+*.temp
+*.unknown_video
+*.ytdl
+.cache/
+
+*.3gp
+*.ape
+*.ass
+*.avi
+*.desktop
+*.f4v
+*.flac
+*.flv
+*.gif
+*.jpeg
+*.jpg
+*.lrc
+*.m4a
+*.m4v
+*.mhtml
+*.mkv
+*.mov
+*.mp3
+*.mp4
+*.mpg
+*.mpga
+*.oga
+*.ogg
+*.opus
+*.png
+*.sbv
+*.srt
+*.ssa
+*.swf
+*.tt
+*.ttml
+*.url
+*.vtt
+*.wav
+*.webloc
+*.webm
+*.webp
+
+# Allow config/media files in testdata
+!test/**
+
+# Allow frontend and Android resource assets
+!webui/frontend/src/assets/**
+!webui/android-app/app/src/main/res/**
+!webui/android-app/app/src/main/assets/favicon.png
+!mobile-frontend/src/assets/**
+
+# Python
+*.pyc
+*.pyo
+.*_cache
+wine-py2exe/
+py2exe.log
+build/
+dist/
+zip/
+tmp/
+venv/
+.venv/
+completions/
+
+# Misc
+*~
+*.DS_Store
+*.kate-swp
+MANIFEST
+test/local_parameters.json
+.coverage
+cover/
+secrets/
+updates_key.pem
+*.egg-info
+.tox
+*.class
+*.isorted
+*.stackdump
+
+# Generated
+AUTHORS
+README.txt
+.mailmap
+*.1
+*.bash-completion
+*.fish
+*.tar.gz
+*.zsh
+*.spec
+test/testdata/sigs/player-*.js
+test/testdata/thumbnails/empty.webp
+test/testdata/thumbnails/foo\ %d\ bar/foo_%d.*
+.ejs-*
+
+# Binary
+/youtube-dl
+/youtube-dlc
+/yt-dlp
+yt-dlp.zip
+*.exe
+*.apk
+
+# Text Editor / IDE
+.idea
+*.iml
+.vscode
+*.sublime-*
+*.code-workspace
+*.swp
+
+# Lazy extractors
+*/extractor/lazy_extractors.py
+
+# Plugins
+ytdlp_plugins/
+yt-dlp-plugins
+
+# Packages
+yt_dlp_ejs/
+
+# ==========================================
+# VideoMover (WebUI + Android) project specific
+# ==========================================
+
+# Release packages / pre-built binaries
+0705包/
+0901包/
+0902包/
+视频搬运工.*
+
+# Android build artifacts
+webui/android-app/.gradle/
+webui/android-app/app/build/
+webui/android-app/local.properties
+webui/android-app/yt-dlp-webui-android.apk
+
+# Old Android project (deprecated)
+android/
+
+# Build logs
+build_log.txt
+android/build_log.txt
+
+# Legacy code (old version, optional to keep)
+# webui/android-app/app/src/main/python/app/legacy/
+
+# Android ffmpeg binary (too large, download separately)
+webui/android-app/ffmpeg-binary/
+
+# Android built frontend (generated during build)
+webui/android-app/app/src/main/assets/assets/
+webui/android-app/app/src/main/assets/index.html
+webui/android-app/app/src/main/python/static/assets/
+webui/android-app/app/src/main/python/static/index.html
+webui/android-app/app/src/main/python/static/favicon.png
+webui/android-app/app/src/main/assets/ffmpeg
+
+# Backend third-party libraries (install via pip)
+webui/backend/libs/
+webui/backend/build/
+webui/backend/dist/
+webui/backend/cookies/
+webui/backend/logs/
+webui/backend/static/
+
+# Backend static files (built from frontend)
+webui/backend/app/static/
+
+# WebUI runtime
+webui/.venv/
+webui/release/
+webui/logs/
+webui/downloads/
+webui/build/
+webui/douyin_cookies.txt
+
+# Frontend dependencies
+webui/frontend/node_modules/
+webui/frontend/dist/
+
+# Mobile frontend dependencies
+mobile-frontend/node_modules/
+mobile-frontend/dist/
+
+# Test videos (too large)
+test_hls/
+
+# Personal notes
+说明_*.txt
+
+# Author branding source (optional - keep or remove)
+# 作者标识/
+
+# uv lock is fine to keep, but just in case:
+# uv.lock

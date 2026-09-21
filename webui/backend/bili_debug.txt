@@ -1,0 +1,24 @@
+_run_bilibili_download called for URL: https://b23.tv/Mki7D6W
+=== download_bilibili_sync called ===
+URL: https://www.bilibili.com/video/BV1JK7N6xEtw/
+Download dir: D:\Downloads\yt-dlp
+Calling asyncio.run(_extract_playinfo)...
+asyncio.run succeeded
+result keys: ['playinfo', 'metadata', 'cookie_str']
+playinfo type: <class 'dict'>, truthy: True
+playinfo keys: ['code', 'message', 'ttl', 'data', 'session']
+has data: True
+metadata: {'title': '秦始皇：你说徭役徭是吧？', 'desc': '灵感来自评论区\n演唱：清风最梦 作词：清风最梦 混音：清风最梦 视频：清风最梦 \n发现挺多人经常来看我视频就是从来不点关注。粉丝量增长不上去收益就更少，如果一直这样下去的话可能有一天不得不停下创作的脚步。如果您确实喜欢看我的视频，或者经常刷我的视频，希望能获得你一个免费的关注支持一下', 'owner': '清风最梦', 'pic': 'http://i1.hdslb.com/bfs/archive/96932ddc2788a5657b0b9ed1f62f4960eb835b2a.jpg', 'duration': 70, 'aid': 116793918165295, 'bvid': 'BV1JK7N6xEtw'}
+cookie_str length: 808
+_run_bilibili_download called for URL: https://b23.tv/Mki7D6W
+=== download_bilibili_sync called ===
+URL: https://www.bilibili.com/video/BV1JK7N6xEtw/
+Download dir: D:\Downloads\yt-dlp
+Calling asyncio.run(_extract_playinfo)...
+asyncio.run succeeded
+result keys: ['playinfo', 'metadata', 'cookie_str']
+playinfo type: <class 'dict'>, truthy: True
+playinfo keys: ['code', 'message', 'ttl', 'data', 'session']
+has data: True
+metadata: {'title': '秦始皇：你说徭役徭是吧？', 'desc': '灵感来自评论区\n演唱：清风最梦 作词：清风最梦 混音：清风最梦 视频：清风最梦 \n发现挺多人经常来看我视频就是从来不点关注。粉丝量增长不上去收益就更少，如果一直这样下去的话可能有一天不得不停下创作的脚步。如果您确实喜欢看我的视频，或者经常刷我的视频，希望能获得你一个免费的关注支持一下', 'owner': '清风最梦', 'pic': 'http://i1.hdslb.com/bfs/archive/96932ddc2788a5657b0b9ed1f62f4960eb835b2a.jpg', 'duration': 70, 'aid': 116793918165295, 'bvid': 'BV1JK7N6xEtw'}
+cookie_str length: 808
