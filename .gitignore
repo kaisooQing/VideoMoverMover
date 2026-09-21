@@ -215,3 +215,11 @@ test_hls/
 
 # uv lock is fine to keep, but just in case:
 # uv.lock
+
+# Shahid extractor contains strings that trigger GitHub secret scanning (false positive AWS keys)
+# This is a Saudi Arabia platform extractor - not needed for most users
+yt_dlp/extractor/shahid.py
+
+# Local helper files (not part of the project)
+copy_exclude.txt
+copy_to_repo.bat
