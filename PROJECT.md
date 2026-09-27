@@ -28,9 +28,8 @@ VideoMover/
 ├── yt_dlp/                  # yt-dlp 核心 Python 库（源码）
 ├── webui/                   # PC 端完整项目（后端 + 前端 + Android 壳）
 ├── mobile-frontend/         # 移动端前端（独立 Vue3 项目）★ 与 PC 端分离
-├── bundle/                  # yt-dlp 官方打包/构建工具
-├── devscripts/              # yt-dlp 开发者脚本
-├── test/                    # yt-dlp 测试套件
+├── 作者标识/                 # 品牌资源
+├── .github/                 # GitHub Actions 配置
 ├── pyproject.toml           # Python 项目配置
 ├── build-pc.bat             # PC 端打包脚本
 ├── build-mobile.bat         # 移动端打包脚本

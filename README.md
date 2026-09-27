@@ -227,14 +227,14 @@ VideoMover/
 │   │   └── App.vue
 │   └── package.json
 │
-├── bundle/                         # yt-dlp 打包工具
-├── devscripts/                     # 开发脚本
-├── test/                           # yt-dlp 测试
+├── 作者标识/                        # 品牌资源
+├── .github/                        # GitHub Actions 配置
 │
 ├── build-pc.bat                    # PC 端打包脚本
 ├── build-mobile.bat                # 移动端打包脚本
 ├── pyproject.toml                  # Python 项目配置
 ├── README.md
+├── PROJECT.md                      # 项目架构文档
 └── LICENSE
 ```
 
@@ -322,9 +322,22 @@ A: PC 端直接下载最新 EXE 替换即可；Android 端下载最新 APK 安�
 
 ---
 
-## 📄 许可证
+## ⚖️ 协议与免责声明
+
+### 使用规范
+
+- 请严格遵守相关法律法规和爬虫规范，**不要使用此项目进行任何违法行为**
+- 不出售、共享、加密、上传或传播任何个人信息
+- 本项目及其相关代码**仅供学习与研究使用**，不构成任何明示或暗示的保证
+- 使用者因使用此项目及其代码可能造成的任何形式的损失，使用者应当自行承担一切风险
+
+### 许可证
 
 **MIT License** — 详见 [LICENSE](LICENSE) 文件。
+
+- 请勿删除或修改代码中的任何版权信息
+- 如需商业化使用此项目，请保留项目仓库地址，不得删除或修改任何版权信息
+- 使用此项目及其代码，即代表您同意遵守上述规定
 
 > 本项目基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp) (Unlicense) 二次开发，yt-dlp 核心部分以公共领域发布。
 
