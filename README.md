@@ -94,8 +94,8 @@
 
 | 平台 | PC 端 | 移动端 | 备注 |
 |:----:|:-----:|:------:|:-----|
-| <img src="https://www.google.com/s2/favicons?domain=douyin.com" width="16"> **抖音** | ✅ | ✅ | 支持无水印视频 |
-| <img src="https://www.google.com/s2/favicons?domain=kuaishou.com" width="16"> **快手** | ✅ | ✅ | 支持短视频和长视频 |
+| <img src="https://www.google.com/s2/favicons?domain=douyin.com" width="16"> **抖音** | ✅ | ✅ | 支持视频和图文（无水印） |
+| <img src="https://www.google.com/s2/favicons?domain=kuaishou.com" width="16"> **快手** | ✅ | ✅ | 支持视频和图文 |
 | <img src="https://www.google.com/s2/favicons?domain=bilibili.com" width="16"> **B站** | ✅ | ✅ | 支持番剧、视频 |
 | <img src="https://www.google.com/s2/favicons?domain=xiaohongshu.com" width="16"> **小红书** | ✅ | ✅ | 支持视频和图文 |
 | <img src="https://www.google.com/s2/favicons?domain=weixin.qq.com" width="16"> **微信视频号** | ✅ | ✅ | |
