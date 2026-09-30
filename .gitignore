@@ -223,3 +223,4 @@ yt_dlp/extractor/shahid.py
 # Local helper files (not part of the project)
 copy_exclude.txt
 copy_to_repo.bat
+推广文案.md
