@@ -2,25 +2,25 @@
 
 ![VideoMover](作者标识/王小氢-标识-横版.svg)
 
-**Multi-Platform Video Downloader · Web & Android**
+**多平台视频下载工具 · Web 端 & Android 端**
 
-**[English](README.md)** · **[简体中文](README_zh-CN.md)**
+**简体中文** · **[English](README_en.md)**
 
 <p align="center">
-  <a href="#-features">
-    <img src="https://img.shields.io/badge/✨-Features-2ea44f?style=for-the-badge" alt="Features">
+  <a href="#功能特性">
+    <img src="https://img.shields.io/badge/✨-功能特性-2ea44f?style=for-the-badge" alt="Features">
   </a>
-  <a href="#-supported-platforms">
-    <img src="https://img.shields.io/badge/🎯-Platforms-blue?style=for-the-badge" alt="Platforms">
+  <a href="#支持平台">
+    <img src="https://img.shields.io/badge/🎯-支持平台-blue?style=for-the-badge" alt="Platforms">
   </a>
-  <a href="#-quick-start">
-    <img src="https://img.shields.io/badge/🚀-Quick%20Start-orange?style=for-the-badge" alt="Quick Start">
+  <a href="#快速开始">
+    <img src="https://img.shields.io/badge/🚀-快速开始-orange?style=for-the-badge" alt="Quick Start">
   </a>
-  <a href="#-download">
-    <img src="https://img.shields.io/badge/📦-Download-red?style=for-the-badge" alt="Download">
+  <a href="#下载安装">
+    <img src="https://img.shields.io/badge/📦-下载安装-red?style=for-the-badge" alt="Download">
   </a>
-  <a href="#-contributing">
-    <img src="https://img.shields.io/badge/🤝-Contributing-purple?style=for-the-badge" alt="Contribute">
+  <a href="#贡献代码">
+    <img src="https://img.shields.io/badge/🤝-贡献代码-purple?style=for-the-badge" alt="Contribute">
   </a>
 </p>
 
@@ -43,48 +43,48 @@
 
 ---
 
-## ✨ Features
+## ✨ 功能特性
 
 <table>
 <tr>
 <td width="50%">
 
-### 🎬 Multi-Platform Download
-Supports Douyin, Kuaishou, Bilibili, Xiaohongshu, WeChat Channels, and **1700+** other websites — one tool for all platforms.
+### 🎬 多平台下载
+支持抖音、快手、B站、小红书、微信视频号等主流平台，以及 **1700+** 其他网站，一个工具全搞定。
 
 </td>
 <td width="50%">
 
-### 🖥️ PC WebUI
-Modern desktop interface built with **FastAPI + Vue3**. Simple, intuitive, with batch download and real-time progress display.
+### 🖥️ PC 端 WebUI
+基于 **FastAPI + Vue3** 打造的现代化桌面界面，操作简单直观，支持批量下载与实时进度显示。
 
 </td>
 </tr>
 <tr>
 <td>
 
-### 📱 Android App
-Native Android app with embedded **Python runtime + WebView**. Download videos on your phone anytime, anywhere.
+### 📱 Android APP
+原生 Android 应用，内嵌 **Python 运行时 + WebView**，手机上随时随地下载视频。
 
 </td>
 <td>
 
-### 🍪 Auto Cookie Capture
-Automatically obtains platform cookies via **Playwright** — no manual configuration needed. Works out of the box.
+### 🍪 自动获取 Cookie
+通过 **Playwright** 自动获取平台 Cookie，无需手动配置，开箱即用。
 
 </td>
 </tr>
 <tr>
 <td>
 
-### 📊 Download Management
-History, progress monitoring, batch operations — everything at a glance.
+### 📊 下载管理
+历史记录、进度监控、批量操作，下载管理一目了然。
 
 </td>
 <td>
 
-### 🔧 Continuously Updated
-Built on the active yt-dlp community, with ongoing platform compatibility updates.
+### 🔧 持续更新
+基于活跃的 yt-dlp 社区，平台适配持续跟进更新。
 
 </td>
 </tr>
@@ -92,270 +92,270 @@ Built on the active yt-dlp community, with ongoing platform compatibility update
 
 ---
 
-## 🎯 Supported Platforms
+## 🎯 支持平台
 
-| Platform | PC | Mobile | Notes |
+| 平台 | PC 端 | 移动端 | 备注 |
 |:----:|:-----:|:------:|:-----|
-| <img src="https://www.google.com/s2/favicons?domain=douyin.com" width="16"> **Douyin** | ✅ | ✅ | Videos & image posts (no watermark) |
-| <img src="https://www.google.com/s2/favicons?domain=kuaishou.com" width="16"> **Kuaishou** | ✅ | ✅ | Videos & image posts |
-| <img src="https://www.google.com/s2/favicons?domain=bilibili.com" width="16"> **Bilibili** | ✅ | ✅ | Anime, videos |
-| <img src="https://www.google.com/s2/favicons?domain=xiaohongshu.com" width="16"> **Xiaohongshu** | ✅ | ✅ | Videos & image posts |
-| <img src="https://www.google.com/s2/favicons?domain=weixin.qq.com" width="16"> **WeChat Channels** | ✅ | ✅ | |
-| 🌐 **1700+ other sites** | ✅ | ✅ | Supported by yt-dlp core |
+| <img src="https://www.google.com/s2/favicons?domain=douyin.com" width="16"> **抖音** | ✅ | ✅ | 支持视频和图文（无水印） |
+| <img src="https://www.google.com/s2/favicons?domain=kuaishou.com" width="16"> **快手** | ✅ | ✅ | 支持视频和图文 |
+| <img src="https://www.google.com/s2/favicons?domain=bilibili.com" width="16"> **B站** | ✅ | ✅ | 支持番剧、视频 |
+| <img src="https://www.google.com/s2/favicons?domain=xiaohongshu.com" width="16"> **小红书** | ✅ | ✅ | 支持视频和图文 |
+| <img src="https://www.google.com/s2/favicons?domain=weixin.qq.com" width="16"> **微信视频号** | ✅ | ✅ | |
+| 🌐 **其他 1700+ 网站** | ✅ | ✅ | 由 yt-dlp 核心支持 |
 
-> Full list: [yt-dlp supported sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
-
----
-
-## 📦 Download
-
-### Windows PC
-
-1. Go to the [Releases](https://github.com/kaisooQing/VideoMoverMover/releases) page
-2. Download the latest `VideoMover-vX.X.X-win-x64.exe`
-3. Double-click to run — your browser will open automatically
-
-### Android
-
-1. Go to the [Releases](https://github.com/kaisooQing/VideoMoverMover/releases) page
-2. Download the latest `VideoMover-vX.X.X-android-arm64.apk`
-3. Install and open on your phone
-
-> ⚠️ **Note**: The first launch of the Android app requires initializing the Python environment, which may take 10-30 seconds.
+> 完整支持列表请参考 [yt-dlp 支持站点](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
 
 ---
 
-## 🚀 Quick Start (Development)
+## 📦 下载安装
 
-### Prerequisites
+### Windows PC 端
+
+1. 前往 [Releases](https://github.com/kaisooQing/VideoMoverMover/releases) 页面
+2. 下载最新的 `VideoMover-vX.X.X-win-x64.exe`
+3. 双击运行，浏览器会自动打开界面
+
+### Android 端
+
+1. 前往 [Releases](https://github.com/kaisooQing/VideoMoverMover/releases) 页面
+2. 下载最新的 `VideoMover-vX.X.X-android-arm64.apk`
+3. 在手机上安装并打开
+
+> ⚠️ **注意**：首次启动 Android 应用需要初始化 Python 环境，可能需要等待 10-30 秒。
+
+---
+
+## 🚀 快速开始（开发版）
+
+### 环境要求
 
 - **Python** ≥ 3.10
 - **Node.js** ≥ 18
-- **Playwright** (for auto cookie capture)
-- **JDK 17** + **Android SDK** (only needed for APK builds)
+- **Playwright**（自动获取 Cookie 用）
+- **JDK 17** + **Android SDK**（仅打包 APK 需要）
 
-### PC Development
+### PC 端开发
 
 ```bash
-# 1. Clone the repository
+# 1. 克隆项目
 git clone https://github.com/kaisooQing/VideoMoverMover.git
 cd VideoMoverMover
 
-# 2. Install yt-dlp core (from local source)
+# 2. 安装 yt-dlp 核心（从本地源码安装）
 pip install -e .
 
-# 3. Install VideoMover dependencies
+# 3. 安装 VideoMover 依赖
 pip install -r requirements.txt
 
-# 4. Install Playwright browser (first time only, for auto cookie capture)
+# 4. 安装 Playwright 浏览器（首次需要，用于自动获取 Cookie）
 playwright install chromium
 
-# 5. Install frontend dependencies
+# 5. 安装前端依赖
 cd webui/frontend
 npm install
 cd ../..
 
-# 6. Start backend service
+# 6. 启动后端服务
 python webui/start.py
 
-# 7. Start frontend (in a new terminal)
+# 7. 启动前端（另开终端）
 cd webui/frontend
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser to use.
+浏览器访问 `http://localhost:5173` 即可使用。
 
-### Android Development
+### Android 端开发
 
 ```bash
-# 1. Install mobile frontend dependencies
+# 1. 安装移动端前端依赖
 cd mobile-frontend
 npm install
 
-# 2. Build frontend
+# 2. 打包前端
 npm run build
 cd ..
 
-# 3. Build APK
+# 3. 构建 APK
 build-mobile.bat
 
-# Output: VideoMover.apk
+# 输出：VideoMover.apk
 ```
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ 项目架构
 
 ```
 VideoMover/
-├── yt_dlp/                         # yt-dlp core download engine (Python)
-│   ├── extractor/                  # Platform extractors (Douyin, Kuaishou, Bilibili, etc.)
-│   ├── YoutubeDL.py                # Core downloader
+├── yt_dlp/                         # yt-dlp 核心下载引擎 (Python)
+│   ├── extractor/                  # 各平台提取器（抖音、快手、B站等）
+│   ├── YoutubeDL.py                # 核心下载器
 │   └── ...
 │
 ├── webui/
-│   ├── backend/                    # PC backend
+│   ├── backend/                    # PC 后端
 │   │   └── app/
-│   │       ├── main.py             # FastAPI entry point
-│   │       ├── platforms/          # Platform download logic
+│   │       ├── main.py             # FastAPI 入口
+│   │       ├── platforms/          # 各平台下载逻辑
 │   │       │   ├── douyin.py
 │   │       │   ├── kuaishou.py
 │   │       │   ├── xiaohongshu.py
 │   │       │   └── ...
-│   │       ├── download_manager.py # Download manager
+│   │       ├── download_manager.py # 下载管理器
 │   │       └── ...
 │   │
-│   ├── frontend/                   # PC frontend (Vue3 + Vite)
+│   ├── frontend/                   # PC 前端 (Vue3 + Vite)
 │   │   ├── src/
-│   │   │   ├── views/              # Page components
-│   │   │   ├── components/         # Shared components
+│   │   │   ├── views/              # 页面组件
+│   │   │   ├── components/         # 公共组件
 │   │   │   └── App.vue
 │   │   └── package.json
 │   │
-│   └── android-app/                # Android project
+│   └── android-app/                # Android 项目
 │       ├── app/src/main/
-│       │   ├── java/               # Java native code
+│       │   ├── java/               # Java 原生代码
 │       │   │   ├── MainActivity.java
 │       │   │   ├── MediaMuxerHelper.java
 │       │   │   └── ...
-│       │   ├── python/             # Python code (Chaquopy runtime)
+│       │   ├── python/             # Python 代码（Chaquopy 运行时）
 │       │   │   └── app/
-│       │   │       └── platforms/  # Mobile platform adapters
-│       │   ├── res/                # Android resources
+│       │   │       └── platforms/  # 移动端平台适配
+│       │   ├── res/                # Android 资源
 │       │   └── AndroidManifest.xml
 │       ├── build.gradle
 │       └── ...
 │
-├── mobile-frontend/                # Mobile frontend (Vue3 + Vite)
+├── mobile-frontend/                # 移动端前端 (Vue3 + Vite)
 │   ├── src/
 │   │   ├── views/
 │   │   └── App.vue
 │   └── package.json
 │
-├── 作者标识/                        # Brand assets
-├── .github/                        # GitHub Actions config
+├── 作者标识/                        # 品牌资源
+├── .github/                        # GitHub Actions 配置
 │
-├── build-pc.bat                    # PC build script
-├── build-mobile.bat                # Mobile build script
-├── pyproject.toml                  # Python project config
+├── build-pc.bat                    # PC 端打包脚本
+├── build-mobile.bat                # 移动端打包脚本
+├── pyproject.toml                  # Python 项目配置
 ├── README.md
-├── PROJECT.md                      # Architecture doc
+├── PROJECT.md                      # 项目架构文档
 └── LICENSE
 ```
 
-### Architecture Notes
+### 架构说明
 
-- **PC**: FastAPI backend + Vue3 frontend. Backend calls yt-dlp to download videos; frontend receives real-time progress via WebSocket
-- **Mobile**: Android app embeds Python runtime via Chaquopy, loads FastAPI service, WebView loads the mobile frontend
-- **Separation**: PC frontend and mobile frontend are independent Vue3 projects
+- **PC 端**：FastAPI 后端 + Vue3 前端，后端调用 yt-dlp 下载视频，前端通过 WebSocket 实时获取下载进度
+- **移动端**：Android APP 通过 Chaquopy 嵌入 Python 运行时，加载 FastAPI 服务，WebView 加载移动端前端页面
+- **两端分离**：PC 前端和移动前端是独立的 Vue3 项目，互不干扰
 
 ---
 
-## 🤝 Contributing
+## 🤝 贡献代码
 
-Contributions are welcome! Here's how to get started:
+欢迎贡献代码！以下是参与开发的步骤：
 
-### 1. Fork the Project
+### 1. Fork 项目
 
-Click the **Fork** button at the top right of this page.
+点击页面右上角的 **Fork** 按钮，将项目 Fork 到你自己的账号下。
 
-### 2. Clone Your Fork
+### 2. 克隆你的 Fork
 
 ```bash
-git clone https://github.com/your-username/VideoMoverMover.git
+git clone https://github.com/你的用户名/VideoMoverMover.git
 cd VideoMoverMover
 ```
 
-### 3. Create a Feature Branch
+### 3. 创建功能分支
 
 ```bash
-git checkout -b feature/your-feature-name
-# or for bug fixes
-git checkout -b fix/your-bugfix
+git checkout -b feature/你的功能名称
+# 或者修复 bug
+git checkout -b fix/修复的问题
 ```
 
-### 4. Commit Your Changes
+### 4. 提交修改
 
 ```bash
 git add .
-git commit -m "feat: add some feature"
-# or
-git commit -m "fix: fix some bug"
+git commit -m "feat: 添加某某功能"
+# 或
+git commit -m "fix: 修复某某问题"
 ```
 
-> Follow [Conventional Commits](https://www.conventionalcommits.org/):
-> - `feat:` new feature
-> - `fix:` bug fix
-> - `docs:` documentation
-> - `style:` formatting
-> - `refactor:` refactoring
-> - `perf:` performance improvement
-> - `test:` testing
+> 提交信息建议遵循 [Conventional Commits](https://www.conventionalcommits.org/) 规范：
+> - `feat:` 新功能
+> - `fix:` 修复 bug
+> - `docs:` 文档更新
+> - `style:` 格式调整
+> - `refactor:` 重构
+> - `perf:` 性能优化
+> - `test:` 测试相关
 
-### 5. Push to Your Fork
+### 5. 推送到你的 Fork
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/你的功能名称
 ```
 
-### 6. Submit a Pull Request
+### 6. 提交 Pull Request
 
-Open your fork on GitHub, click **Compare & pull request**, fill in the PR description, and submit.
+在 GitHub 上打开你的 Fork 仓库，点击 **Compare & pull request**，填写 PR 描述后提交。
 
-### Guidelines
+### 贡献指南
 
-- **Code style**: Python follows PEP 8, JavaScript/Vue follows ESLint config
-- **Comments**: Add comments for key logic
-- **Testing**: Add tests for new features when possible
-- **Issues**: For major changes, please open an Issue for discussion first
-
----
-
-## ❓ FAQ
-
-### Q: Downloading Douyin videos says Cookie is needed?
-A: On first download from Douyin, cookies are automatically obtained via Playwright. If auto-capture fails, you can manually export cookies from your browser and place them in the `cookies/` directory.
-
-### Q: Why can't some downloaded videos play in the phone gallery?
-A: Some platforms use fragmented MP4 (fMP4) format, which Android gallery players don't support. VideoMover automatically detects and converts these to standard MP4.
-
-### Q: What video qualities are supported?
-A: All qualities provided by each platform are supported. The highest quality is downloaded by default. You can adjust this in settings.
-
-### Q: How to update to the latest version?
-A: For PC, download the latest EXE and replace the old one. For Android, download the latest APK and install it over the existing app.
+- **代码风格**：Python 遵循 PEP 8，JavaScript/Vue 遵循 ESLint 配置
+- **注释**：关键逻辑请添加中文注释
+- **测试**：尽量为新功能添加测试
+- **Issue**：重大改动建议先开 Issue 讨论
 
 ---
 
-## ⚖️ Disclaimer
+## ❓ 常见问题
 
-### Important Notice
+### Q: 下载抖音视频提示需要 Cookie？
+A: 首次下载抖音视频时会自动通过 Playwright 获取 Cookie，如果自动获取失败，可以手动在浏览器登录后导出 Cookie 放到 `cookies/` 目录。
 
-This project is intended for **learning and research purposes only**. When downloading videos, please follow these principles:
+### Q: 为什么有的视频下载后无法在手机图库播放？
+A: 部分平台的视频是碎片化 MP4 (fMP4) 格式，Android 图库播放器不支持。VideoMover 会自动识别并转换为标准 MP4 格式。
 
-- ✅ For personal learning, appreciation, or backup only
-- ✅ Respect the original creator's intellectual property — do not redistribute
-- ❌ Not for commercial use or profit
-- ❌ No bulk downloading, reposting, or uploading to other platforms
-- ❌ No obtaining or spreading others' private information
+### Q: 支持哪些视频质量？
+A: 支持各平台提供的所有质量，默认下载最高质量。可以在设置中调整。
 
-### Legal Responsibility
+### Q: 如何更新到最新版本？
+A: PC 端直接下载最新 EXE 替换即可；Android 端下载最新 APK 安装覆盖即可。
 
-- Users bear **all legal responsibility** for any violations of the above terms
-- The project author is not liable for any losses or disputes arising from the use of this software
-- Please ensure your usage complies with local laws and regulations
+---
 
-### License
+## ⚖️ 免责声明
 
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
+### 重要提示
 
-> This project is built on [yt-dlp](https://github.com/yt-dlp/yt-dlp) (Unlicense). The yt-dlp core is released into the public domain.
+本项目仅供**学习与研究**使用，下载的视频请遵守以下原则：
+
+- ✅ 仅用于个人学习、欣赏或资料备份
+- ✅ 尊重原作者的知识产权，下载后请勿二次传播
+- ❌ 不得用于商业用途或牟利
+- ❌ 不得批量下载、转载或上传至其他平台
+- ❌ 不得用于获取或传播他人隐私信息
+
+### 法律责任
+
+- 使用者因违反上述规定而产生的**任何法律责任，均由使用者自行承担**
+- 本项目作者不对使用本软件造成的任何损失或纠纷负责
+- 请确保您的使用行为符合当地法律法规
+
+### 开源协议
+
+本项目采用 **MIT License** 开源，详见 [LICENSE](LICENSE) 文件。
+
+> 本项目基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp) (Unlicense) 二次开发，yt-dlp 核心部分以公共领域发布。
 
 ---
 
 <div align="center">
 
-If you like this project, please give it a ⭐ Star!
+如果觉得项目不错，点个 ⭐ Star 支持一下吧！
 
 Made with ❤️ by VideoMover Team
 
